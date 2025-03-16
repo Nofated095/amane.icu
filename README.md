@@ -1,13 +1,11 @@
-# nof.moe Project
+# amane.icu Project
 ###### Material UI, Vite.js, and Typescript.
-
-
 
 ## Dev
 
 ```sh
-git clone https://github.com/Nofated095/nof.moe.git
-cd nof.moe
+git clone https://github.com/Nofated095/amane.icu.git
+cd amane.icu
 yarn
 yarn dev
 ```
