@@ -78,7 +78,7 @@ export default function App() {
                 <strong>Ciallo～</strong>
               </Typography>
               <Typography>             
-                I'm Amane Tanikaze. Amane is meaning kawaii! {kawaii_face}
+                I'm Amane. Amane is meaning kawaii! {kawaii_face}
               </Typography>
             </Box>
             <Box sx={{ my: 1 }}>
@@ -87,8 +87,8 @@ export default function App() {
               </Typography>
               <Typography>
                 📒️ I have a <Link href="https://blog.amane.icu/">blog</Link> based on Hexo.<br />
-                ⌨️ Coding and open-source are great! Let's contribute together!<br />
-                🧪 I used to be an iGEMer. My team won a 🥈silver medal in <Link href="https://competition.igem.org/">iGEM Competition</Link> 2023!<br />
+                ⌨️ Coding and open-source are great!<br />
+                🧪 iGEMer in 2023 with a 🥈silver medal, and iGEM Advisor in 2024.<br />
               </Typography>
             </Box>
             <Box sx={{ my: 1 }}>
