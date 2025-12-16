@@ -1,8 +1,5 @@
 {
-  "name": "nof.moe",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
+  "name": "amane.icu",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -11,16 +8,19 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
+    "@fontsource/red-hat-display": "^5.2.8",
     "@mui/icons-material": "next",
     "@mui/material": "next",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@fontsource/fira-mono": "^5.2.7",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
     "typescript": "latest",
-    "vite": "latest"
+    "vite": "latest",
+    "vite-plugin-pwa": "^1.2.0"
   }
 }
