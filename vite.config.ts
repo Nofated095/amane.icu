@@ -9,7 +9,7 @@ export default defineConfig({
     VitePWA({
       registerStrategy: 'autoUpdate',
       workbox: {
-        globPatterns: ['**/*.{js,css,html,png,jpg,jpeg,svg,gif}'],
+        globPatterns: ['**/*.{js,css,html,png,jpg,jpeg,webp,svg,gif,woff2}'],
       },
     }),
   ],
