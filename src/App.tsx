@@ -4,16 +4,12 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Avatar from '@mui/material/Avatar';
 import Skeleton from '@mui/material/Skeleton';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import TwitterIcon from '@mui/icons-material/Twitter';
 
 function VenessaAvatar(props: { loading?: boolean }) {
   const { loading = false } = props;
@@ -86,9 +82,10 @@ export default function App() {
                 <strong>Wonderhoy!</strong>
               </Typography>
               <Typography>
-                📒️ I have a <Link href="https://blog.amane.icu/">blog</Link> based on Hexo.<br />
-                ⌨️ Coding and open-source are great!<br />
+                📒️ I have a <Link href="https://blog.amane.icu/">blog</Link> with infinite creativiy.<br />
+                ⌨️ Open-source is great!<br />
                 🧪 iGEMer in 2023 with a 🥈silver medal, and iGEM Advisor in 2024.<br />
+                🎵 Fan of <Link href="https://www.youtube.com/@feryquitous6012">Feryquitous</Link>.
               </Typography>
             </Box>
             <Box sx={{ my: 1 }}>
@@ -98,12 +95,6 @@ export default function App() {
               <Stack spacing={2} direction="row">
                 <Button variant="text" color="inherit" href="https://github.com/Nofated095" startIcon={<GitHubIcon />}>
                   GitHub
-                </Button>
-                <Button variant="text" color="inherit" href="https://t.me/s/Nofated" startIcon={<TelegramIcon />}>
-                  Telegram
-                </Button>
-                <Button variant="text" color="inherit" href="https://twitter.com/nofated095" startIcon={<TwitterIcon />}>
-                  Twitter
                 </Button>
               </Stack>
             </Box>

@@ -17,16 +17,11 @@ function AutoTheme() {
         typography: {
           fontFamily: [
             'Fira Mono',
-            '-apple-system',
-            'BlinkMacSystemFont',
-            '"Segoe UI"',
+            '--apple-system',
+            'Segoe UI',
             'Roboto',
-            '"Helvetica Neue"',
             'Arial',
             'sans-serif',
-            '"Apple Color Emoji"',
-            '"Segoe UI Emoji"',
-            '"Segoe UI Symbol"',
           ].join(','),
         },
       }),
