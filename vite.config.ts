@@ -40,7 +40,7 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: /^https:\/\/pic\.rmb\.bdstatic\.com\/.*/i,
+            urlPattern: /^https:\/\/blog\.amane\.icu\/.*/i,
             handler: 'CacheFirst',
             options: {
               cacheName: 'favicon-cache',
