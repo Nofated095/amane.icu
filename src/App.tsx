@@ -21,7 +21,7 @@ function VenessaAvatar(props: { loading?: boolean }) {
           <Avatar sx={{ width: '100%', height: 'auto', aspectRatio: '1' }} />
         </Skeleton>
       ) : (
-        <Avatar src="https://cloudflare.endpoint.amaneus.net/avatars/avatar.webp" sx={{ width: '100%', height: 'auto', aspectRatio: '1' }} />
+        <Avatar src="/avatar.webp" sx={{ width: '100%', height: 'auto', aspectRatio: '1' }} />
       )}
     </div>
   );
@@ -82,7 +82,7 @@ export default function App() {
                 <strong>Wonderhoy!</strong>
               </Typography>
               <Typography>
-                📒️ I have a <Link href="https://blog.amane.icu/">blog</Link> with infinite creativiy.<br />
+                📒️ I have a <Link href="https://blog.amane.icu/">blog</Link> fueled by infinite creativity.<br />
                 ⌨️ Open-source is great!<br />
                 🧪 iGEMer in 2023 with a 🥈silver medal, and iGEM Advisor in 2024.<br />
                 🎵 Fan of <Link href="https://www.youtube.com/@feryquitous6012">Feryquitous</Link>.
